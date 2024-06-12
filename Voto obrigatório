@@ -1,0 +1,20 @@
+programa {
+  funcao inicio() {
+    //Sara e Lena, voto obrigatorio
+    //leia a idade e verifique se a pessoa tem idade o suficiente pra votar
+   cadeia nome
+   inteiro idade
+
+   escreva ("digite seu nome completo: ")
+   leia (nome)
+   escreva ("digite sua idade: ")
+   leia (idade)
+   // conectivo ''e'' serve para colocar mais informações
+    se ( idade >= 16 e idade <=64 ) {
+      escreva (nome, " seu voto é obrigatorio.")
+    }
+    senao {
+      escreva (nome, " seu voto não é obrigatorio.")
+    }
+  }
+}
